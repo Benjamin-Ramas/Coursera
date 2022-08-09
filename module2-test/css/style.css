@@ -1,28 +1,45 @@
 header{
     width: 100%;
-    text-justify: center;
-}
-
-body{
-    background-color: #33ff00;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-box{
     margin: 5px;
     border: 1px;
     border: solid;
+    display: grid;
+    flex-wrap: wrap;
 }
 
-.food-title{
+.chicken, .beef, .sushi{
+    font-size: 125%;
+    font-weight: bold;
     float: right;
     border: 2px;
     border-style: solid;
-    padding: 0px 15px;
+    padding: 3px 20px;
+}
+
+.food-title{
+    background-color: rgb(139, 139, 139);
 }
 
 .food-desc{
-    border: 2px;
-    border-style: solid;
+    background-color: rgb(139, 139, 139);
+    padding: 20px 5px 5px 5px;
+}
+
+.chicken{
+    background-color: #ffc0cb;
+}
+
+.beef{
+    background-color: rgb(151, 50, 50);
+}
+
+.sushi{
+    background-color: rgb(233, 233, 97)
 }
 
 .grid1, .grid2, .grid3{
@@ -31,10 +48,6 @@ body{
 
 /*Tablet*/
 @media only screen and (min-width: 768px){
-    body{
-        background-color: #2f00ff;
-    }
-
     .grid1{
         width: 50%;
     }
@@ -48,10 +61,6 @@ body{
 
 /*Desktop*/
 @media only screen and (min-width: 992px){
-    body{
-        background-color: #ff0000;
-    }
-
     .grid1{
         width: 33%;
     }
