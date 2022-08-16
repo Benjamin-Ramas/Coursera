@@ -13,6 +13,11 @@ header{
     padding-bottom: 20px;
 }
 
+.menu-title{
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
 .food-box{
     padding: 10px;
     text-align: center;
