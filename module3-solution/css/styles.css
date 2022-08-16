@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+a, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.food-box{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    border: none;
+}
+
+.back-to-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgb(227, 175, 241);
+}
+
+#collapsable-nav{
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-toggle{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.food-info{
+    padding: 25px;
+    background-color: #ffeca6;
+}
+
+.food-info > div{
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.row{
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.row > div{
+    padding: 5px;
+}
